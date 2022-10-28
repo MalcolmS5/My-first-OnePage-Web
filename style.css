@@ -1,0 +1,179 @@
+body{
+    background-color: #59a0a5b0;
+}
+.header{
+    height: 200px;
+    margin-bottom: 20px;
+    width: auto;
+    text-align: center;
+}
+.item{
+    display: inline-block;
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: rgba(75, 33, 123, 0.501);
+}
+.logo{
+    margin-bottom: 100px;
+    font-size: 200px;
+    color: rgba(75, 33, 123, 0.501);
+    text-align: center;
+    line-height: 2cm;
+    letter-spacing: 3px;
+    
+}
+p{
+    font-size: 30px;  
+}
+.logo1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 200px;
+    color: rgba(75, 33, 123, 0.501);
+    text-align: center;
+}
+
+.content{
+    margin-top: 100px;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.pole{
+    margin-right: auto;
+    margin-left: auto;
+    height: 265px;
+    width: 800px;
+    text-align: center;
+    
+}
+.tekst1{
+    float: left;
+    width: 400px;
+    height: 250px;
+    font-size: 25px;
+    text-align: justify;
+    margin: 10px;
+}
+img{
+    float: right;
+    width:350px; 
+    height:250;
+    margin: 15px;
+}
+img:hover{
+    transform: scale(1.2);
+
+}
+.pole2{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 265px;
+    width: 800px;
+    text-align: center;
+    
+}
+.tekst2{
+    float: right;
+    width: 400px;
+    height: 250px;
+    font-size: 25px;
+    text-align: justify;
+    margin: 10px;
+}
+
+
+/*stopka*/
+
+.footer{
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 890px;
+    height: auto;
+    
+}
+/*Pojemnik pierwszy*/
+.box1{
+    width: 440px;
+    height: 435px;
+    display:inline-block;
+    text-align: center;
+}
+.text{
+    text-align: center;
+    font-size: 100px;
+    width:450px;
+    color: rgba(75, 33, 123, 0.501);
+}
+
+/*Pojemnik drugi--formularz*/
+.box2{
+    display:inline-block;
+    width: 200px;
+    padding: 30px;
+}
+input{
+    margin: 0 0 30px 0;
+    width: 300px;
+    background-color:aliceblue;
+    color: #666;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+input[type=text]:focus{
+    background-color: rgb(209, 228, 245);
+}
+textarea{
+    width: 300px;
+    background-color:aliceblue;
+    color: #666;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+textarea[type=message]:focus{
+    background-color: rgb(209, 228, 245);
+} 
+input[type=button]{
+    background-color: rgba(75, 33, 123, 0.501);
+    color: azure;
+    font-size: 30px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+input[type=button]:hover{
+    background-color:rgba(110, 50, 179, 0.501); 
+    transition: all 0.5s ease-in-out;
+}
+input::placeholder{
+    color: rgba(75, 33, 123, 0.501);
+    font-size: 25px;
+}
+textarea::placeholder{
+    color: rgba(75, 33, 123, 0.501);
+    font-size: 25px;
+}
+
+.footer2{
+    text-align: center;
+    font-size: 25px;
+    height: 20px;
+    padding: 20px 0 20px 0;
+    margin: 10px 0 10px 0;
+    letter-spacing: 3px;
+    color: rgba(75, 33, 123, 0.501);
+}
+
